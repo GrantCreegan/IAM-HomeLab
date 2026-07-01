@@ -141,3 +141,10 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Script-generated log files - artifact of running, not source
+scripts/logs/
+
+# Local environment-specific files
+*.local
+.env
